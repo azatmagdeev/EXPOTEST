@@ -1,6 +1,7 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: "Roboto Thin", sans-serif;
 }
 
 
@@ -19,6 +20,15 @@ body {
 
 .header img{
     width: 50%;
+}
+
+.header .menu .menuItems{
+    position: absolute;
+    background-color: white;
+    display: none;
+    z-index: 5;
+    color: black;
+    list-style: none;
 }
 
 /*******main*******/
