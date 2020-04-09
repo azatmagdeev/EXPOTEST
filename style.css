@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+
+/******Header******/
+.header{
+
+    padding: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 10vh;
+    background-color: #152235;
+    color: #ffffff;
+}
+
+/*******main*******/
+.main {
+
+}
+
+.main .first{
+    width: 90vw;
+    margin: 5vw;
+    border: solid 1px #eaeff2;
+}
+
+.main .first .image img {
+    width:100%
+}
+
+.main .first .offer {
+    padding: 0 10%;
+}
+
+main .first .stats{
+    padding: 5%;
+    background-color: #eaeff2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .first .stats .statItem {
+    display:flex;
+    align-items: center;
+
+}
+
+.main .first .stats .statItem span{
+    padding: 10px;
+}
